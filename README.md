@@ -17,6 +17,10 @@ Kotest assertions are part of the Kotest tests framework for Kotlin.
 * [Kotest test framework](https://kotest.io/)
 * [Kotest assertions documentation](https://kotest.io/docs/assertions/assertions.html)
 
+## Strikt
+Assertion library for Kotlin intended for use with a test runner such as JUnit, Minutest or Spek.
+* [Strikt](https://strikt.io/)
+
 ## Spock
 Spock is a Groovy testing and specification framework.
 * [Spock documentation](https://spockframework.org/spock/docs/2.1/index.html)

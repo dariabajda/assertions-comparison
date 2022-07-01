@@ -122,7 +122,7 @@ it.listProperty == ["x", "y", "z"]
 |  [a, b]       false
 SomeObject(booleanProperty=true, stringProperty=tekst, listProperty=[a, b])
 ```
-### Compare multiple properties
+### Compare objects
 ```
 Condition not satisfied:
 
@@ -133,4 +133,24 @@ actual == expected
 SomeObject(booleanProperty=true, stringProperty=tekst, listProperty=[a, b])
 
 	at SpockSpec.spock - compare objects(SpockSpec.groovy:24)
+```
+
+## Strikt
+### Compare multiple properties
+```
+▼ Expect that true:
+  ✗ is false
+    found true
+▼ Expect that "tekst":
+  ✗ is equal to "inny tekst"
+          found "tekst"
+▼ Expect that ["a", "b"]:
+  ✗ is equal to ["x", "y", "z"]
+          found ["a", "b"]
+```
+### Compare objects
+```
+▼ Expect that SomeObject(booleanProperty=true, stringProperty=tekst, listProperty=[a, b]):
+  ✗ is equal to SomeObject(booleanProperty=false, stringProperty=inny tekst, listProperty=[x, y, z])
+          found SomeObject(booleanProperty=true, stringProperty=tekst, listProperty=[a, b])
 ```
