@@ -1,3 +1,5 @@
+package readability
+
 import model.SomeObject
 import org.junit.jupiter.api.Test
 import strikt.api.expect

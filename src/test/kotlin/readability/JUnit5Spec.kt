@@ -1,3 +1,5 @@
+package readability
+
 import model.SomeObject
 import org.junit.jupiter.api.Assertions.assertAll
 import org.junit.jupiter.api.Assertions.assertEquals
