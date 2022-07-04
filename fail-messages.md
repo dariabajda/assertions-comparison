@@ -10,8 +10,6 @@ Multiple Failures (3 failures)
 ### Compare objects
 ```
 expected: <SomeObject(booleanProperty=true, stringProperty=tekst, listProperty=[a, b])> but was: <SomeObject(booleanProperty=false, stringProperty=inny tekst, listProperty=[x, y, z])>
-Expected :SomeObject(booleanProperty=true, stringProperty=tekst, listProperty=[a, b])
-Actual   :SomeObject(booleanProperty=false, stringProperty=inny tekst, listProperty=[x, y, z])
 ```
 
 ## AssertJ
