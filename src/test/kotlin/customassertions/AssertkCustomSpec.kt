@@ -7,7 +7,7 @@ import assertk.assertions.support.show
 import model.SomeObject
 import org.junit.jupiter.api.Test
 
-class CustomAssertkSpec {
+class AssertkCustomSpec {
 
     @Test
     fun `assertk - custom assertion`() {

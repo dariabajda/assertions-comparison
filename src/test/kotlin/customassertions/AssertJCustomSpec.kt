@@ -2,7 +2,7 @@ import model.SomeObject
 import org.assertj.core.api.AbstractAssert
 import org.junit.jupiter.api.Test
 
-class CustomAssertJSpec {
+class AssertJCustomSpec {
 
     @Test
     fun `assertj - custom assertion`() {

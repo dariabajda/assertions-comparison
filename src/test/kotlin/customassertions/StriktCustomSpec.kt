@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 import strikt.api.Assertion
 import strikt.api.expectThat
 
-class CustomStriktSpec {
+class StriktCustomSpec {
 
     @Test
     fun `strikt - custom assertion`() {

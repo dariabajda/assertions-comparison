@@ -7,7 +7,7 @@ import io.kotest.matchers.shouldNot
 import model.SomeObject
 import org.junit.jupiter.api.Test
 
-class CustomKotestSpec {
+class KotestCustomSpec {
 
     @Test
     fun `kotest - custom assertion`() {
